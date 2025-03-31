@@ -1,0 +1,91 @@
+.app-container {
+  background-image: url('./assets/SignUp.svg'); /* Replace with your image path */
+  background-size: cover; /* or contain, or auto, etc. */
+  background-repeat: no-repeat; /* Optional: Prevent image repetition */
+  background-position: center; /* Optional: Center the image */
+  min-height: 100vh; /* Make the background cover the whole viewport */
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column; /* Optional: Arrange children vertically */
+  align-items: center; /* Optional: Center children horizontally */
+  justify-content: center; /* Optional: Center children vertically */
+  color: white; /* optional, ensures text is visible against most background images*/
+}
+
+.login-box {
+  background-color: #fbc000;
+  width: 70vw;
+  height: 70vh;
+  border-radius: 5vh;
+  display: flex;
+}
+
+.left-box > img {
+  background-image: url('./assets/InsideImg.svg');
+  width: 32.5vw;
+  height: 65vh;
+  margin: 2.5vh 0vh 2.5vh 2.5vh;
+  border-radius: 3vh 0vh 0vh 3vh;
+  background-position: center;
+}
+
+.right-box {
+  margin-left: 5%;
+  margin-top: 1vh;
+  gap: 2vh;
+  font-weight: bold;
+  color: black;
+}
+
+.right-box > h2 {
+  margin-left: 15vh;
+}
+
+.right-box > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.right-box form input {
+  width: 100%;
+  background-color: white;
+  padding: 0.5vh;
+  border: 0;
+}
+
+.right-box button {
+  background-color: #0B3034;
+  font-weight: bold;
+  margin-top: 1vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+.alternative {
+  display: flex;
+  align-items: center;
+  margin-top: 1vh;
+}
+
+.alternative > img {
+  border-radius: 100%;
+  width: 7.5vh;
+  margin: 2vh;
+}
+
+.alternative > p {
+  margin-right: 10vh;
+}
+
+.tologin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.tologin a {
+  color: black;
+  font-weight: bold;
+}
