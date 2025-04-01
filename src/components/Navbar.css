@@ -1,0 +1,7 @@
+header {
+  background-color: #FBC000;
+}
+
+ul>li, .nav-btn .btn {
+  font-weight: bold;
+}
